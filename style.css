@@ -1,0 +1,281 @@
+@font-face {
+    font-family: Cormorant-Bold;
+    src: url("assets/fonts/Cormorant-Bold.ttf");}
+
+html {
+    margin: auto;
+    scroll-behavior: smooth; 
+}
+    
+@media (max-width: 768px) {
+.section {
+    width: 100%;
+}
+}
+
+body{
+    width: 800px;
+    margin: auto;
+    font-family: Cormorant-Bold;
+    padding: 0px 0px 0px 0px;
+    font-size: 20px;
+}
+
+.nav{
+    width: 870px;
+}
+.nav-list {
+    background-color:#eae9e9;
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0px 0px;
+    line-height: 30px;
+    transition: .6s;
+    margin: 0px;
+    text-decoration: none;
+
+}
+
+.nav-item:hover {
+    border-bottom: 2px solid rgb(0, 0, 0) ;
+}
+
+.photo{
+    width: 150px;
+    height: 150px;
+    display: flex;
+    overflow: visible;
+}
+
+.header-container{
+    padding:40px 20px 80px 0px;
+    background-color:#eae9e9;
+    width: 850px;
+}
+
+.header__title{
+    font-size: 50px;
+    font-weight: 900;
+    width: 450px;
+    padding:0px 0px 0px 60px;
+    font: optional;
+    margin: 0px;
+    line-height:0.85
+}
+
+.header__subtitle{
+    font-size: 30px;
+    font-weight:lighter;
+    font-style: normal;
+    width: 450px;
+    padding:40px 0px 0px 70px;
+    margin: 0;
+}
+
+.header__contacts{
+padding-left: 20px;
+}
+
+.header_contacts-item {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    min-height: 30px;
+    padding-left: 40px;
+    margin-bottom: 10px;
+    background-repeat: no-repeat;
+    background-size: 20px;
+    background-position: left center;
+    line-height:0.85
+}
+
+h3{
+    font-weight: 900;
+    line-height:0.2;
+}
+
+h4{
+    margin-top:0px;
+    line-height:0.5;
+}
+
+.location{
+    background-image: url(assets/img/location.svg);
+    background-repeat: no-repeat;
+    line-height:0.2;
+}
+
+.email{
+    background-image: url(assets/img/email.svg);
+    background-repeat: no-repeat;
+    line-height:0.1;
+}
+
+.github{
+    background-image: url(assets/img/github.svg);
+    background-repeat: no-repeat;
+    line-height:0.2;
+}
+
+
+.main-container {
+        display: flex;
+        flex-wrap: no-wrap;
+        grid-template-columns: 1fr 2fr;
+        justify-content: space-evenly;
+        width: 850px;
+}
+
+.section-title {
+    font-size: 20px;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    color: #829985;
+    /*border-bottom: 1px solid #000000;*/
+}
+
+h2{
+    border-bottom: 0.5px solid #8080809b ;}
+
+    /*Скиллы*/
+.skills_bar{
+    width: 100%;
+}
+
+.skills_all{
+    list-style: none;
+    padding-left: 10px;
+    width: 230px;
+    line-height:1.5;
+}
+
+.skills_bar-progress{
+    width: 100%;
+    height: 8px;
+    margin-top: 0px;
+    background-color: #eae9e9;
+}
+
+.skills_html{
+    width: 60%;
+    height: 8px;
+    margin-top: 5px;
+    background-color: #666666a9;
+}
+
+.skills_css{
+    width: 55%;
+    height: 8px;
+    margin-top: 5px;
+    background-color: #666666a9;
+}
+
+.skills_js{
+    width: 10%;
+    height: 8px;
+    margin-top: 5px;
+    background-color: #666666a9;
+}
+
+.skills_git{
+    width: 30%;
+    height: 8px;
+    margin-top: 5px;
+    background-color: #666666a9;
+}
+
+.skills_figma{
+    width: 0%;
+    height: 8px;
+    margin-top: 5px;
+    background-color: #666666a9;
+}
+
+.skills_react{
+    width: 0%;
+    height: 8px;
+    margin-top: 5px;
+    background-color: #666666a9;
+}
+
+.div-left{
+    width: auto;
+    margin-right: 50px;
+    margin-left: 30px;
+    padding-right: 30px;
+    margin-top: 50px;
+}
+
+.div-left{
+    width: auto;
+    margin-right: 50px;
+    margin-left: 30px;
+    border-right: 0.5px solid #8080809b;
+    padding-right: 30px;
+    margin-top: 50px;
+}
+
+.div-right{
+    margin-top: 50px;
+    width: 450px;
+}
+
+.date_educ{
+    background-color: #eae9e9;
+    font-size: 20px;
+    font-weight: 800;
+    text-transform: uppercase;
+    border-radius: 11px;
+    display: inline-block;
+    font-family: 'Times';
+    padding: 2px 18px;
+}
+
+.univ_educ{
+    font-family: 'Times';
+    font-size: 20px;
+    font-weight: 800;
+    padding: 0px 0px;
+}
+
+/*Низ сайта*/
+.footer_bottom{
+    display: flex;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 20px 10px 20px;
+    width: 850px;
+}
+
+.footer_rsschool {
+    justify-self: end;
+    height: 32px;
+}
+
+.year{
+    font-family: Arial, sans-serif;
+    font-size: 200%;
+    font-weight: 550;
+}
+
+a:-webkit-any-link {
+    color: -webkit-link;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.lang_ul{    
+    list-style: none;
+    padding-left: 10px;
+    width: 230px;
+    line-height:1.5;
+}
+
+.educ_ul{
+    list-style: none;
+    padding-left: 0px;
+}
