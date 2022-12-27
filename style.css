@@ -35,11 +35,11 @@ body{
     transition: .6s;
     margin: 0px;
     text-decoration: none;
-
 }
 
 .nav-item:hover {
-    border-bottom: 2px solid rgb(0, 0, 0) ;
+    font-size: 25px;
+    font-weight: 400;
 }
 
 .photo{
